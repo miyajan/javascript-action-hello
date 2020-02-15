@@ -8,4 +8,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - name: Hello
+        id: hello
         uses: ./
+      - run: |
+          echo ${{ steps.hello.outputs.test }}
+          echo ${{ steps.hello.outputs.hoge }}
+          echo ${{ steps.hello.outputs.result }}

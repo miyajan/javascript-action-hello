@@ -6,3 +6,7 @@ inputs:
   node-version:
     description: test
     default: 1
+outputs:
+  test:
+  hoge:
+    description: fuga
