@@ -1,4 +1,4 @@
 name: "Hello World"
 runs:
   using: docker
-  image: actions/container-action@master
+  image: Dockerfile
