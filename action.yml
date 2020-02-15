@@ -1,6 +1,4 @@
 name: "Hello World"
 runs:
   using: docker
-  image: docker://gcr.io/cloud-builders/gcloud
-  args:
-    - version
+  image: actions/container-action@master
