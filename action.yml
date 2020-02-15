@@ -4,4 +4,3 @@ runs:
   main: "index.js"
 inputs:
   node-version:
-    required: false
