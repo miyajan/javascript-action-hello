@@ -1,4 +1,4 @@
 name: "Hello World"
 runs:
-  using: "node12"
-  main: "index.js"
+  using: docker
+  image: docker://alpine:3.11
