@@ -1,4 +1,8 @@
-name: "Hello World"
+name: "Hello World miyajan"
+description: "hoge fuga"
 runs:
   using: "node12"
   main: "index.js"
+inputs:
+  test:
+    default: "hoge"
