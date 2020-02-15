@@ -5,6 +5,4 @@ runs:
   env:
     test: hoge
   entrypoint: /bin/echo
-  args:
-    - Hello
-    - World
+  args: ['Hello', 'World']
