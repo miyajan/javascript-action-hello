@@ -5,3 +5,4 @@ runs:
 inputs:
   node-version:
     description: test
+    default: 1
