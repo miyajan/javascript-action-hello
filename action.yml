@@ -4,3 +4,7 @@ runs:
   image: Dockerfile
   env:
     test: hoge
+  entrypoint: /bin/echo
+  args:
+    - Hello
+    - World
