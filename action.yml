@@ -4,3 +4,4 @@ runs:
   main: "index.js"
 inputs:
   node-version:
+    description: test
